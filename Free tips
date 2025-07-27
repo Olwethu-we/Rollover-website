@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Free Tips - Rollover</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #e9f7f9; color: #333; }
+    header { background: #16a085; padding: 15px; color: white; text-align: center; }
+    .section { padding: 20px; }
+    .betslip { background: white; padding: 15px; border-radius: 8px; margin-bottom: 15px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    .match { font-weight: bold; }
+    footer { text-align: center; padding: 15px; background: #ccc; }
+  </style>
+</head>
+<body>
+  <header><h2>Free Daily Tips</h2></header>
+  <div class="section">
+    <div class="betslip">
+      <div class="match">Brazil Série D: Team A vs Team B</div>
+      <div class="type">Tip: Over 1.5 Goals</div>
+      <div class="odds">Odds: 1.80</div>
+    </div>
+    <div class="betslip">
+      <div class="match">Scotland League Cup: Team C vs Team D</div>
+      <div class="type">Tip: Home Win</div>
+      <div class="odds">Odds: 1.90</div>
+    </div>
+    <div class="betslip">
+      <div class="match">Slovakia 2. Liga: Team E vs Team F</div>
+      <div class="type">Tip: Over 2.5 Goals</div>
+      <div class="odds">Odds: 1.75</div>
+    </div>
+  </div>
+  <footer>&copy; 2025 Rollover Free Tips</footer>
+</body>
+</html>

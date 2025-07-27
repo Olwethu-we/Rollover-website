@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>VIP Tips - Rollover</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body { font-family: Arial, sans-serif; background: #f7f7f7; margin: 0; }
+    header { background: #2c3e50; padding: 20px; color: white; text-align: center; }
+    section { padding: 20px; }
+    h2 { color: #34495e; }
+    .category { margin-top: 25px; }
+    .betslip { background: white; border-radius: 10px; padding: 15px; margin-bottom: 15px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    .match { font-weight: bold; }
+    .type, .odds { margin-top: 5px; }
+    footer { background: #ccc; padding: 15px; text-align: center; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>VIP Room</h1>
+    <p>Premium Tips (5+ Odds)</p>
+  </header>
+
+  <section>
+    <div class="category">
+      <h2>🎯 Corners (Over 9.5)</h2>
+      <div class="betslip">
+        <div class="match">Team A vs Team B</div>
+        <div class="type">Tip: Over 9.5 Corners</div>
+        <div class="odds">Odds: 5.20</div>
+      </div>
+      <div class="betslip">
+        <div class="match">Team C vs Team D</div>
+        <div class="type">Tip: Over 10.5 Corners</div>
+        <div class="odds">Odds: 6.10</div>
+      </div>
+      <div class="betslip">
+        <div class="match">Team E vs Team F</div>
+        <div class="type">Tip: Over 11 Corners</div>
+        <div class="odds">Odds: 5.80</div>
+      </div>
+    </div>
+
+    <div class="category">
+      <h2>⚽ BTTS</h2>
+      <div class="betslip">
+        <div class="match">Team G vs Team H</div>
+        <div class="type">Tip: Both Teams To Score</div>
+        <div class="odds">Odds: 5.60</div>
+      </div>
+      <div class="betslip">
+        <div class="match">Team I vs Team J</div>
+        <div class="type">Tip: BTTS & Over 2.5</div>
+        <div class="odds">Odds: 6.00</div>
+      </div>
+      <div class="betslip">
+        <div class="match">Team K vs Team L</div>
+        <div class="type">Tip: BTTS 1st Half</div>
+        <div class="odds">Odds: 5.50</div>
+      </div>
+    </div>
+
+    <div class="category">
+      <h2>⏱️ HT / FT</h2>
+      <div class="betslip">
+        <div class="match">Team M vs Team N</div>
+        <div class="type">Tip: Draw/Win</div>
+        <div class="odds">Odds: 5.40</div>
+      </div>
+      <div class="betslip">
+        <div class="match">Team O vs Team P</div>
+        <div class="type">Tip: Win/Win</div>
+        <div class="odds">Odds: 6.30</div>
+      </div>
+      <div class="betslip">
+        <div class="match">Team Q vs Team R</div>
+        <div class="type">Tip: Lose/Win</div>
+        <div class="odds">Odds: 5.90</div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Rollover VIP Tips
+  </footer>
+</body>
+</html>

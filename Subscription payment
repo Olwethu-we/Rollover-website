@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Subscribe - Rollover</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://js.yoco.com/sdk/v1/yoco-sdk-web.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f0f2f5; text-align: center; padding: 30px; }
+    .container { background: white; padding: 25px; max-width: 400px; margin: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+    h2 { color: #27ae60; }
+    button { padding: 10px 20px; background: #27ae60; color: white; border: none; border-radius: 5px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Subscribe for VIP Tips</h2>
+    <p>Pay R50 and access premium tips for 31 days</p>
+    <button id="pay-button">Pay Now</button>
+  </div>
+  <script>
+    var yoco = new window.YocoSDK({
+      publicKey: 'pk_test_d73f9cd1f2ef4fe6098f143bcd4972ae30d39c8d'
+    });
+    document.getElementById('pay-button').addEventListener('click', function () {
+      yoco.showPopup({
+        amountInCents: 5000,
+        currency: 'ZAR',
+        name: 'Rollover VIP Access',
+        description: '31-Day Premium Tips Subscription',
+        callback: function (result) {
+          if (result.error) {
+            alert("Payment failed: " + result.error.message);
+          } else {
+            alert("Payment successful! Your token: " + result.id);
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>
